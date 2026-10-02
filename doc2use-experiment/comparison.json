@@ -1,0 +1,3072 @@
+{
+  "source": "/Volumes/WS4TB/ClefExtract/modernjev/doc2use.md",
+  "sha256": "9dc30fc287ac08f7cbcf96c2fa0d0fba9788164937987be49f3f9831b7bd0760",
+  "bytes": 11791,
+  "threshold": 0.72,
+  "questions": 14,
+  "full_clef_escalation": false,
+  "results": [
+    {
+      "id": "local",
+      "errors": 0,
+      "elapsed_ms": 620363,
+      "stopped": null
+    },
+    {
+      "id": "jev",
+      "errors": 0,
+      "elapsed_ms": 5750,
+      "stopped": null
+    },
+    {
+      "id": "mercury",
+      "errors": 0,
+      "elapsed_ms": 38215,
+      "stopped": null
+    },
+    {
+      "id": "liquid",
+      "errors": 0,
+      "elapsed_ms": 8811,
+      "stopped": null
+    }
+  ],
+  "units": 121,
+  "engines_complete": [
+    "local",
+    "jev",
+    "mercury",
+    "liquid"
+  ],
+  "indexes_compared": 121,
+  "indexes_skipped": 0,
+  "category_unanimous": 90,
+  "category_majority_3_of_4": 14,
+  "category_split": 17,
+  "unanimous_category_and_polarity": 63,
+  "zones": {
+    "body": {
+      "compared": 64,
+      "category_unanimous": 33,
+      "category_majority_3_of_4": 14,
+      "category_split": 17,
+      "polarity_same_when_category_same": 16
+    },
+    "references": {
+      "compared": 57,
+      "category_unanimous": 57,
+      "category_majority_3_of_4": 0,
+      "category_split": 0,
+      "polarity_same_when_category_same": 47
+    }
+  },
+  "disagreement_count": 58,
+  "per_engine": {
+    "local": {
+      "scored": 121,
+      "errors": 0,
+      "kinds": {
+        "fact": 43,
+        "theory": 5,
+        "none": 69,
+        "workflow_step": 4
+      },
+      "polarity": {
+        "affirmed": 58,
+        "conditional": 2,
+        "denied": 3,
+        "unclear": 58
+      },
+      "disposition": {
+        "waiting": 121
+      },
+      "external_check_yes": 39,
+      "conflict": 17,
+      "needs_full": 121,
+      "median_confidence": 0.4244000000000001,
+      "median_elapsed_ms": 5048,
+      "zones": {
+        "body": {
+          "scored": 64,
+          "kinds": {
+            "fact": 43,
+            "theory": 5,
+            "none": 12,
+            "workflow_step": 4
+          },
+          "disposition": {
+            "waiting": 64
+          }
+        },
+        "references": {
+          "scored": 57,
+          "kinds": {
+            "none": 57
+          },
+          "disposition": {
+            "waiting": 57
+          }
+        }
+      }
+    },
+    "jev": {
+      "scored": 121,
+      "errors": 0,
+      "kinds": {
+        "fact": 50,
+        "none": 63,
+        "theory": 1,
+        "concept": 1,
+        "workflow_step": 6
+      },
+      "polarity": {
+        "affirmed": 60,
+        "unclear": 57,
+        "conditional": 3,
+        "denied": 1
+      },
+      "disposition": {
+        "waiting": 77,
+        "boilerplate": 41,
+        "filed": 3
+      },
+      "external_check_yes": 97,
+      "conflict": 6,
+      "needs_full": 115,
+      "median_confidence": 0.30000000000000004,
+      "median_elapsed_ms": 166,
+      "zones": {
+        "body": {
+          "scored": 64,
+          "kinds": {
+            "fact": 50,
+            "none": 6,
+            "theory": 1,
+            "concept": 1,
+            "workflow_step": 6
+          },
+          "disposition": {
+            "waiting": 55,
+            "boilerplate": 6,
+            "filed": 3
+          }
+        },
+        "references": {
+          "scored": 57,
+          "kinds": {
+            "none": 57
+          },
+          "disposition": {
+            "boilerplate": 35,
+            "waiting": 22
+          }
+        }
+      }
+    },
+    "mercury": {
+      "scored": 121,
+      "errors": 0,
+      "kinds": {
+        "concept": 3,
+        "fact": 42,
+        "theory": 4,
+        "none": 69,
+        "workflow_step": 3
+      },
+      "polarity": {
+        "unclear": 90,
+        "affirmed": 25,
+        "denied": 4,
+        "conditional": 2
+      },
+      "disposition": {
+        "waiting": 55,
+        "boilerplate": 62,
+        "filed": 4
+      },
+      "external_check_yes": 95,
+      "conflict": 7,
+      "needs_full": 108,
+      "median_confidence": 0.6251463739742743,
+      "median_elapsed_ms": 429,
+      "zones": {
+        "body": {
+          "scored": 64,
+          "kinds": {
+            "concept": 3,
+            "fact": 42,
+            "theory": 4,
+            "none": 12,
+            "workflow_step": 3
+          },
+          "disposition": {
+            "waiting": 51,
+            "boilerplate": 9,
+            "filed": 4
+          }
+        },
+        "references": {
+          "scored": 57,
+          "kinds": {
+            "none": 57
+          },
+          "disposition": {
+            "boilerplate": 53,
+            "waiting": 4
+          }
+        }
+      }
+    },
+    "liquid": {
+      "scored": 121,
+      "errors": 0,
+      "kinds": {
+        "concept": 4,
+        "none": 68,
+        "fact": 48,
+        "workflow_step": 1
+      },
+      "polarity": {
+        "affirmed": 59,
+        "unclear": 60,
+        "conditional": 2
+      },
+      "disposition": {
+        "waiting": 91,
+        "boilerplate": 24,
+        "filed": 6
+      },
+      "external_check_yes": 62,
+      "conflict": 7,
+      "needs_full": 114,
+      "median_confidence": 0.40578585026842284,
+      "median_elapsed_ms": 276,
+      "zones": {
+        "body": {
+          "scored": 64,
+          "kinds": {
+            "concept": 4,
+            "none": 11,
+            "fact": 48,
+            "workflow_step": 1
+          },
+          "disposition": {
+            "waiting": 51,
+            "boilerplate": 7,
+            "filed": 6
+          }
+        },
+        "references": {
+          "scored": 57,
+          "kinds": {
+            "none": 57
+          },
+          "disposition": {
+            "boilerplate": 17,
+            "waiting": 40
+          }
+        }
+      }
+    }
+  },
+  "pairs": {
+    "local_vs_jev": {
+      "compared": 121,
+      "same_category": 101,
+      "same_category_and_polarity": 96,
+      "same_disposition": 77
+    },
+    "local_vs_mercury": {
+      "compared": 121,
+      "same_category": 97,
+      "same_category_and_polarity": 75,
+      "same_disposition": 55
+    },
+    "local_vs_liquid": {
+      "compared": 121,
+      "same_category": 96,
+      "same_category_and_polarity": 87,
+      "same_disposition": 91
+    },
+    "jev_vs_mercury": {
+      "compared": 121,
+      "same_category": 103,
+      "same_category_and_polarity": 75,
+      "same_disposition": 85
+    },
+    "jev_vs_liquid": {
+      "compared": 121,
+      "same_category": 107,
+      "same_category_and_polarity": 97,
+      "same_disposition": 93
+    },
+    "mercury_vs_liquid": {
+      "compared": 121,
+      "same_category": 107,
+      "same_category_and_polarity": 76,
+      "same_disposition": 69
+    }
+  },
+  "disagreements": [
+    {
+      "index": 1,
+      "zone": "body",
+      "text": "**Cladophialophora bantiana** is a neurotropic dematiaceous (melanized) mold and the single most common cause of cerebral phaeohyphomycosis, accounting for roughly one-third to nearly half of reported cases, with a distinctive tendency to cause brain abscess in otherwise healthy, immunocompetent hosts and a mortality of approximately 65–74% regardless of immune status.[1][2][3] It presents clinically as a slowly expanding, space-occupying brain lesion that mimics a tumor, is diagnostically challenging because CSF cultures are usually negative, and requires combined aggressive neurosurgical resection plus prolonged antifungal therapy.[1][4][2]",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4244000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.52,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "concept",
+          "polarity": "unclear",
+          "confidence": 0.9196135494256902,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "concept",
+          "polarity": "affirmed",
+          "confidence": 0.5697055463963964,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "zone": "body",
+      "text": "**Microbiology and pathogenesis**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.07800000000000007,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.75,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "concept",
+          "polarity": "unclear",
+          "confidence": 0.24470387723463077,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.7083266461609542,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 3,
+      "zone": "body",
+      "text": "A phaeoid (brown-pigmented) fungus whose cell wall melanin is considered the key virulence factor, interfering with microglial defense",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4244000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.5,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "concept",
+          "polarity": "unclear",
+          "confidence": 0.5873205822085107,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "liquid": {
+          "record_kind": "concept",
+          "polarity": "affirmed",
+          "confidence": 0.37800558645210636,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict"
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "zone": "body",
+      "text": "it has a striking, near-exclusive tropism for the CNS and is rarely isolated from other sources.[2][3]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.2245999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.17999999999999994,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.7588380103206239,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.5963735554792424,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 5,
+      "zone": "body",
+      "text": "Found in soil worldwide; infection is thought to occur via inhalation or traumatic cutaneous inoculation, followed by hematogenous dissemination to the brain.",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4456,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "theory",
+          "polarity": "affirmed",
+          "confidence": 0.78,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "theory",
+          "polarity": "unclear",
+          "confidence": 0.5593605711395218,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.06241874674751258,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 7,
+      "zone": "body",
+      "text": "- Classically considered a tropical/subtropical organism, but autochthonous and temperate-climate cases are now reported, possibly reflecting an expanding geographic range.[5]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "theory",
+          "polarity": "affirmed",
+          "confidence": 0.17880000000000007,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.46,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "theory",
+          "polarity": "affirmed",
+          "confidence": 0.5163483477342753,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3027097293321085,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 9,
+      "zone": "body",
+      "text": "**Clinical presentation**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.4791,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.56,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.24491866240370908,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8269366239622715,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 11,
+      "zone": "body",
+      "text": "combined brain-and-meningeal involvement (~14%) and isolated meningitis (~2.5%) are much less common.[2]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.17779999999999996,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.64,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "denied",
+          "confidence": 0.8299599300179289,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7270896121417301,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 13,
+      "zone": "body",
+      "text": "Reported presentations include ophthalmoplegia, ataxia, visual field defects, and progressive cognitive/motor decline",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.2964,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3400000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.4115700556740225,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.8409355207611237,
+          "disposition": "filed",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 14,
+      "zone": "body",
+      "text": "frontal and parietal lobes are frequently involved.[6][7][8]",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.4907999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.28,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.7039055926597895,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.596373536276456,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 16,
+      "zone": "body",
+      "text": "roughly half of patients have no identifiable risk factor, while the remainder have immunosuppression (transplantation, hematologic malignancy/solid tumor, less often neutropenia).[2][3]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.15300000000000002,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.09999999999999998,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.18533319990813935,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.39438800305135846,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 18,
+      "zone": "body",
+      "text": "**Imaging**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "theory",
+          "polarity": "affirmed",
+          "confidence": 0.3506,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.48,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.5098299847632095,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8599241651791896,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 19,
+      "zone": "body",
+      "text": "- MRI/CT typically shows **rim-enhancing focal lesion(s)** with surrounding edema and mass effect, often with diffusion restriction on DWI, consistent with abscess; hemorrhage may be present.[4][8][9]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "theory",
+          "polarity": "affirmed",
+          "confidence": 0.3724,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.8400000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.8066168366919769,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.06241874674751258,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 20,
+      "zone": "body",
+      "text": "Prognostically favorable features are an easily resectable, well-encapsulated mass",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.21720000000000006,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.76,
+          "disposition": "filed",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.5553856400389363,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.8417702980626058,
+          "disposition": "filed",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 21,
+      "zone": "body",
+      "text": "poor prognosis correlates with solitary lesions that cannot be fully resected, poorly demarcated borders, or multiple satellite lesions.[1]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.24120000000000008,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.6599999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.19361288662097298,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.5758624112051398,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 23,
+      "zone": "body",
+      "text": "**Diagnostic testing**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3098000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "concept",
+          "polarity": "affirmed",
+          "confidence": 0.44,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.12435300177159625,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "concept",
+          "polarity": "affirmed",
+          "confidence": 0.2680642511717197,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 25,
+      "zone": "body",
+      "text": "**Direct microscopy/histopathology:** KOH mount and Gram stain of aspirated pus show narrow, septate, phaeoid (pigmented) hyphae with sparse branching",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.5640000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.8,
+          "disposition": "filed",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.8552788981695847,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.46929787248210586,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 27,
+      "zone": "body",
+      "text": "**Culture:** Grows on Sabouraud dextrose agar as slow-growing, velvety, olivaceous-black to dark colonies (often within ~5 days but classical ID can take a week or more)",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3515999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.17999999999999994,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.8617355620394549,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7126260909912555,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 28,
+      "zone": "body",
+      "text": "lactophenol cotton blue tape prep shows dark septate hyphae with long, sparsely branched wavy chains of smooth conidia.[10][8][1]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4137,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.9005685313330164,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.6351489701669297,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 29,
+      "zone": "body",
+      "text": "**Molecular identification:** ITS region sequencing/BLAST confirms species",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3273999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3600000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "workflow_step",
+          "polarity": "unclear",
+          "confidence": 0.7866187936461544,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4571507449920593,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 30,
+      "zone": "body",
+      "text": "pan-fungal PCR with sequencing is recommended when microscopy/histology is positive but culture is negative, and should be done on fresh (not formalin-fixed) sterile tissue.[10][12]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "workflow_step",
+          "polarity": "conditional",
+          "confidence": 0.256,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "conditional",
+          "confidence": 0.33999999999999997,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "workflow_step",
+          "polarity": "conditional",
+          "confidence": 0.6251463739742743,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "conditional",
+          "confidence": 0.18533319990813957,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 31,
+      "zone": "body",
+      "text": "- **Metagenomic/NGS testing:** Plasma or biopsy metagenomic next-generation sequencing (e.g., Karius test) has identified C. bantiana in as little as ~40 hours and can expedite diagnosis when conventional methods are slow or cultures negative.[6][10]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.08660000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.1200000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.35740574360548844,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.5920341030589227,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 32,
+      "zone": "body",
+      "text": "**CSF/biomarkers:** CSF cultures are mostly negative",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "denied",
+          "confidence": 0.3943,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "denied",
+          "confidence": 0.3027097293321084,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4115700804281318,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 33,
+      "zone": "body",
+      "text": "β-D-glucan may be useful but there is no specific antigen test.",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "theory",
+          "polarity": "unclear",
+          "confidence": 0.3287,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.21,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "theory",
+          "polarity": "unclear",
+          "confidence": 0.5224346048288554,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.39640754022038466,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 35,
+      "zone": "body",
+      "text": "- Because pulmonary involvement is common, less-invasive specimens (BAL, protected tracheal specimens, lung/skin lesion aspirates) can be screened for the organism.[10][5]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.3515999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.4,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.4797824360569328,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4115700928051862,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 36,
+      "zone": "body",
+      "text": "The following figure illustrates the typical diagnostic cascade — rim-enhancing MRI lesions, septate pigmented hyphae on Gram stain, the characteristic olive-black colonies, and conidial morphology on lactophenol cotton blue:",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.36339999999999995,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.37,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.35835738536323225,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.486335971718169,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 37,
+      "zone": "body",
+      "text": "Figure 1 A T1-weighted contrast-enhanced magnetic resonance image (MRI): coronal section through the posterior cranial fossa shows multiple rim-enhancing abscesses (arrows pointed) in the parieto-temporal lobes.",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.2884,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.6799999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.9253462226344799,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.7472682438840398,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 38,
+      "zone": "body",
+      "text": "B Gram-stain showing septate hyphae with sparse branching, under × 1000.",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.7159,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.44,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.7615941559557649,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8725700239411537,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 39,
+      "zone": "body",
+      "text": "C Olive-black velvety colonies of C. bantiana growing on Sheep Blood Agar, Sabouraud’s Slant and Sabouraud’s Plate.",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3577,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.58,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.24491866240370908,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.484657577019865,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 40,
+      "zone": "body",
+      "text": "D Tape preparation of C. bantiana, stained with lactophenol cotton blue, showing melanized septate hyphal elements, under × 400",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3612,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.33,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.5963735602799389,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.9051482563376052,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 41,
+      "zone": "body",
+      "text": "**Differential diagnosis**",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.6316,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.35,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.7615941778591329,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "concept",
+          "polarity": "unclear",
+          "confidence": 0.3692185245819388,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 42,
+      "zone": "body",
+      "text": "Given the tumor-like radiographic appearance and nonspecific symptoms, consider:",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "theory",
+          "polarity": "unclear",
+          "confidence": 0.4128,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "conditional",
+          "confidence": 0.43999999999999995,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.06241874674751258,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.27406161652464356,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 43,
+      "zone": "body",
+      "text": "- **Other mold brain abscesses:** Aspergillus species; Mucorales (often rhinocerebral with sinus origin); Scedosporium species/Lomentospora prolificans; Fusarium species.[4]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.4356,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.45999999999999996,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.32482413107755764,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.4494658718170971,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 45,
+      "zone": "body",
+      "text": "- **Yeast CNS infections:** Cryptococcus (cryptococcoma/meningoencephalitis), Candida (microabscesses), other non-candida yeasts.[4]",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.2450000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.63,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.745064690385366,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3302063628323395,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 48,
+      "zone": "body",
+      "text": "**Treatment**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.4337,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.21999999999999997,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.7483803460224816,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.5884576927032107,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 49,
+      "zone": "body",
+      "text": "The mainstays are **complete surgical excision of the abscess combined with prolonged antifungal therapy and, where applicable, reversal/reduction of immunosuppression**",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "workflow_step",
+          "polarity": "denied",
+          "confidence": 0.3528,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.42,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7959156993368222,
+          "disposition": "filed",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.6409274212517272,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 50,
+      "zone": "body",
+      "text": "despite this, there is no clearly proven optimal regimen and mortality remains high.[1][10][2][5]",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "denied",
+          "confidence": 0.3735,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "denied",
+          "confidence": 0.4,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.7142478403699478,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.49003740634102416,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 51,
+      "zone": "body",
+      "text": "**Surgery:** Craniotomy with complete mass removal (or aspiration) was performed in ~89% of reviewed cases",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.13580000000000003,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.1200000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.6351489479423769,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4980864024178879,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 52,
+      "zone": "body",
+      "text": "complete excision is associated with the best outcomes, whereas incomplete resection predicts death.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4838,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.56,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.8199311323507227,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.49323120602586695,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 53,
+      "zone": "body",
+      "text": "Repeat surgery for progression was needed in ~20%.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.10699999999999998,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.09999999999999998,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.7039056076955648,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.12435297243012688,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 54,
+      "zone": "body",
+      "text": "The 2014 ESCMID/ECMM guidelines for black-fungus (phaeohyphomycosis) disease recommend complete excision of the brain abscess, with addition of single or combination antifungals to improve survival.[1][10]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4132,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.76,
+          "disposition": "waiting",
+          "review_reasons": [
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.12435300177159614,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.12435300177159614,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 55,
+      "zone": "body",
+      "text": "- **Antifungal agents used (from systematic review):** voriconazole (~77%), lipid amphotericin B formulations (~43%), amphotericin B deoxycholate (~31%), flucytosine/5-FC (~26%), posaconazole (~10%), fluconazole (~8%), with occasional itraconazole, isavuconazole, and echinocandins (limited CSF penetration, little success).[10]",
+      "category_diff": true,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.475,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.3799999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.510887186285181,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.403535510385843,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 56,
+      "zone": "body",
+      "text": "- **Common regimen:** sequential/combination therapy — liposomal amphotericin B plus voriconazole (often with flucytosine or posaconazole), transitioning to oral azole maintenance, with duration individualized to radiologic resolution.[10][8]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.4016,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.5,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.26400962898993696,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.062418776433721845,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 58,
+      "zone": "body",
+      "text": "fluconazole is poorly active (MIC90 64).",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.2902,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.49,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "denied",
+          "confidence": 0.8749130830954176,
+          "disposition": "filed",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.6160821106069947,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 59,
+      "zone": "body",
+      "text": "Posaconazole is a reasonable alternative to amphotericin B and isavuconazole offers adequate activity with an IV formulation.[13]",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4004,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.21999999999999997,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.5098299847632095,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7039056264902832,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 60,
+      "zone": "body",
+      "text": "- **Intraventricular/intrathecal antifungals** (e.g., intraventricular/intrathecal amphotericin B via Ommaya reservoir) can be considered as adjuncts in refractory ventriculitis or compartmentalized intraventricular disease when systemic therapy fails despite therapeutic serum levels.[6][10][9]",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "conditional",
+          "confidence": 0.3912,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "conditional",
+          "confidence": 0.48,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "mercury": {
+          "record_kind": "theory",
+          "polarity": "conditional",
+          "confidence": 0.36180312726254105,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "conditional",
+          "confidence": 0.06241874674751258,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        }
+      }
+    },
+    {
+      "index": 61,
+      "zone": "body",
+      "text": "**Monitoring and duration:** prolonged therapy (often many months) with serial imaging is required",
+      "category_diff": true,
+      "polarity_diff": false,
+      "disposition_diff": false,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.34640000000000004,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "jev": {
+          "record_kind": "workflow_step",
+          "polarity": "affirmed",
+          "confidence": 0.43,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.4621170869461002,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence"
+          ]
+        }
+      }
+    },
+    {
+      "index": 62,
+      "zone": "body",
+      "text": "relapse is common, mandating extended follow-up.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.134,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required"
+          ]
+        },
+        "jev": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.78,
+          "disposition": "filed",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "fact",
+          "polarity": "unclear",
+          "confidence": 0.7643464354687873,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "fact",
+          "polarity": "affirmed",
+          "confidence": 0.7665874966066989,
+          "disposition": "filed",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 73,
+      "zone": "references",
+      "text": "Neuroinfections caused by fungi.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.254,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.28,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.4115700680510772,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.2449186624037092,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 82,
+      "zone": "references",
+      "text": "A Case of Disseminated Autochthonous Cladophialophora Bantiana Infection in a Renal Transplant Recipient in the UK.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.7048,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.4,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.703905607695565,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.3027097022606673,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 90,
+      "zone": "references",
+      "text": "2022;41(11):e481-e486. doi:10.1097/INF.0000000000003680.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.9087,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.08000000000000007,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "denied",
+          "confidence": 0.8798267122754084,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.6161344086168099,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 91,
+      "zone": "references",
+      "text": "2021 Southern Medical Research Conference.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.5127999999999999,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.09999999999999998,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.3027097428678289,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.48633602860166025,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 94,
+      "zone": "references",
+      "text": "Gram stain to the rescue: a case report of cerebral phaeohyphomycosis by Cladophialophora bantiana in an immunocompetent 24-year-old.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8915,
+          "disposition": "waiting",
+          "review_reasons": [
+            "conflict",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.26,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "conflict",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.18533319990813935,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.9158245453702832,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 106,
+      "zone": "references",
+      "text": "Bipolaris, Exophiala, Scedosporium, Sporothrix, and Other Melanized FungiThis chapter contains information presented in chapter 125 by G.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8439,
+          "disposition": "waiting",
+          "review_reasons": [
+            "conflict",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.10000000000000009,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.30270975640354925,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.031239831446031152,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 107,
+      "zone": "references",
+      "text": "Sybren de Hoog and Roxana G.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.8328,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.3400000000000001,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.2449186624037092,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.1549907303716236,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        }
+      }
+    },
+    {
+      "index": 108,
+      "zone": "references",
+      "text": "Vitale in the ninth edition of this Manual..",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.3098000000000001,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.36,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.12435300177159614,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "external_check_required",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 109,
+      "zone": "references",
+      "text": "Josep Guarro, G.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.7974,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.30000000000000004,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.46211712210305567,
+          "disposition": "waiting",
+          "review_reasons": [
+            "low_confidence",
+            "unclear"
+          ]
+        }
+      }
+    },
+    {
+      "index": 111,
+      "zone": "references",
+      "text": "Manual of Clinical Microbiology 10th Edition.",
+      "category_diff": false,
+      "polarity_diff": true,
+      "disposition_diff": true,
+      "models": {
+        "local": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.8501,
+          "disposition": "waiting",
+          "review_reasons": [
+            "unclear"
+          ]
+        },
+        "jev": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.10000000000000009,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "mercury": {
+          "record_kind": "none",
+          "polarity": "unclear",
+          "confidence": 0.5098299627073035,
+          "disposition": "boilerplate",
+          "review_reasons": []
+        },
+        "liquid": {
+          "record_kind": "none",
+          "polarity": "affirmed",
+          "confidence": 0.7615941371814482,
+          "disposition": "waiting",
+          "review_reasons": [
+            "conflict",
+            "unclear"
+          ]
+        }
+      }
+    }
+  ]
+}
