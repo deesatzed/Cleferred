@@ -1,0 +1,42 @@
+{
+  "local": {
+    "elapsed_ms": 592874,
+    "note_pieces": 64,
+    "note_facts_called": 43,
+    "note_facts_kept": 42,
+    "note_kept": 44,
+    "note_waiting": 20,
+    "note_skipped": 0,
+    "cited_facts_kept": 25
+  },
+  "jev": {
+    "elapsed_ms": 5823,
+    "note_pieces": 64,
+    "note_facts_called": 50,
+    "note_facts_kept": 47,
+    "note_kept": 52,
+    "note_waiting": 6,
+    "note_skipped": 6,
+    "cited_facts_kept": 33
+  },
+  "mercury": {
+    "elapsed_ms": 58042,
+    "note_pieces": 64,
+    "note_facts_called": 42,
+    "note_facts_kept": 16,
+    "note_kept": 20,
+    "note_waiting": 35,
+    "note_skipped": 9,
+    "cited_facts_kept": 11
+  },
+  "liquid": {
+    "elapsed_ms": 10459,
+    "note_pieces": 64,
+    "note_facts_called": 48,
+    "note_facts_kept": 45,
+    "note_kept": 47,
+    "note_waiting": 10,
+    "note_skipped": 7,
+    "cited_facts_kept": 29
+  }
+}
